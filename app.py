@@ -6,8 +6,8 @@ from utils import preprocessor
 from huggingface_hub import hf_hub_download
 
 #REPO_ID FROM HUGGINGFACE
-REPO_ID = ''
-FILENAME
+REPO_ID = 'Kappa5667/IOD_mod10_sentiment_test'
+FILENAME = 'model_.joblib'
 
 def run():
     model_path = hf_hub_download(repo_id=REPO_ID, filename=FILENAME)
